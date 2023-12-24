@@ -1,0 +1,13 @@
+name: rl-sandbox
+channels: 
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.1.0
+  - torchinfo=1.8.0
+  - numpy=1.26.2
+  - matplotlib=3.8.2
+  - pip:
+    - gymnasium[accept-rom-license]
+    - gymnasium[atari]
