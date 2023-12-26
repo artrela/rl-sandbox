@@ -1,10 +1,14 @@
 name: rl-sandbox
 channels: 
-  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
 dependencies:
   - python=3.9
   - pip
   - pytorch=2.1.0
+  - pytorch-cuda=12.1
+  # - torchvision=0.16.2
   - torchinfo=1.8.0
   - numpy=1.26.2
   - matplotlib=3.8.2
